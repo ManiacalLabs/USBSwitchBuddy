@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Custom)(type KiCad)(uri ${KIPRJMOD}/Custom.pretty)(options "")(descr "Project Specific Custom"))
+  (lib (name Logos)(type KiCad)(uri ${KIPRJMOD}/LOGOS.pretty)(options "")(descr Logos))
 )
