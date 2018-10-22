@@ -1,8 +1,8 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0)*
 G04 #@! TF.CreationDate,2018-10-08T16:27:30-04:00*
-G04 #@! TF.ProjectId,USBPowerSwtich,555342506F7765725377746963682E6B,rev?*
+G04 #@! TF.ProjectId,USBSwitchBuddy,555342506F7765725377746963682E6B,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*

@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -61,7 +61,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 67.1 88.5)
-    (visible_elements 7FFFFF7F)
+    (visible_elements 7FFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -361,8 +361,8 @@
   (gr_arc (start 95.4 86) (end 95.4 88.5) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 95.4 74) (end 97.9 74) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 69.6 74) (end 69.6 71.5) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "Maniacal\nLabs" (at 89.1 73.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.25)) (justify left))
+  (gr_text "Maniacal\nLabs" (at 81.6 74 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify right))
   )
   (gr_text 5V (at 81 84) (layer B.SilkS) (tstamp 5B9DA9ED)
     (effects (font (size 0.7 0.7) (thickness 0.175)) (justify mirror))
